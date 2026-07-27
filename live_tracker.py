@@ -28,10 +28,6 @@ LEAGUES = {
     137: "کوپا ایتالیا",
     78: "بوندسلیگا آلمان",
     715: "یوپوکال آلمان (DFB Pokal)",
-    91: "اردیویزی هلند",
-    94: "پریمیرا لیگا پرتغال",
-    307: "لیگ عربستان",
-    826: "سوپرکاپ عربستان",
     290: "لیگ برتر ایران",
     291: "لیگ دسته اول ایران (آزادگان)",
     495: "جام حذفی ایران",
@@ -53,6 +49,30 @@ LEAGUES = {
     29: "انتخابی جام جهانی - آفریقا",
     32: "انتخابی جام جهانی - اروپا",
     34: "انتخابی جام جهانی - آمریکای جنوبی",
+}
+
+# تیم‌ها/تیم‌های ملی ویژه: هر بازی این‌ها، در هر رقابتی، پوشش داده می‌شود
+SPECIAL_TEAMS = {
+    10: "تیم ملی انگلیس",
+    33: "منچستریونایتد",
+    40: "لیورپول",
+    42: "آرسنال",
+    50: "منچسترسیتی",
+    2: "تیم ملی فرانسه",
+    85: "پاریس سن‌ژرمن",
+    25: "تیم ملی آلمان",
+    157: "بایرن مونیخ",
+    9: "تیم ملی اسپانیا",
+    529: "بارسلونا",
+    541: "رئال مادرید",
+    22: "تیم ملی ایران",
+    2733: "استقلال",
+    2742: "پرسپولیس",
+    7500: "داماش گیلان",
+    2710: "سپیدرود رشت",
+    2939: "النصر",
+    2932: "الهلال",
+    9568: "اینترمیامی",
 }
 
 
@@ -92,6 +112,20 @@ def get_fixture_state(state, fixture_id):
 
 def match_label(home, away, league_name):
     return f"⚽ {home} - {away}\n🏆 {league_name}"
+
+
+def is_relevant(item):
+    league_id = item.get("league", {}).get("id")
+    home_id = item.get("teams", {}).get("home", {}).get("id")
+    away_id = item.get("teams", {}).get("away", {}).get("id")
+
+    if league_id in LEAGUES:
+        return True, LEAGUES[league_id]
+    if home_id in SPECIAL_TEAMS or away_id in SPECIAL_TEAMS:
+        # حتی اگر لیگش در لیست ما نبود (مثلاً بازی دوستانه)، اسم واقعی رقابت را از خود API می‌گیریم
+        api_league_name = item.get("league", {}).get("name", "بازی دوستانه/سایر")
+        return True, api_league_name
+    return False, None
 
 
 def process_fixture(item, state, league_name):
@@ -162,11 +196,11 @@ def main():
     processed_count = 0
 
     for item in data:
-        league_id = item.get("league", {}).get("id")
-        if league_id not in LEAGUES:
+        relevant, league_name = is_relevant(item)
+        if not relevant:
             continue
         try:
-            process_fixture(item, state, LEAGUES[league_id])
+            process_fixture(item, state, league_name)
             processed_count += 1
         except Exception as e:
             fixture_id = item.get("fixture", {}).get("id", "?")

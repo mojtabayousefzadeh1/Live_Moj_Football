@@ -51,7 +51,6 @@ LEAGUES = {
     34: "انتخابی جام جهانی - آمریکای جنوبی",
 }
 
-# تیم‌ها/تیم‌های ملی ویژه: هر بازی این‌ها، در هر رقابتی، پوشش داده می‌شود
 SPECIAL_TEAMS = {
     10: "تیم ملی انگلیس",
     33: "منچستریونایتد",
@@ -130,7 +129,6 @@ def is_relevant(item):
     if league_id in LEAGUES:
         return True, LEAGUES[league_id]
     if home_id in SPECIAL_TEAMS or away_id in SPECIAL_TEAMS:
-        # حتی اگر لیگش در لیست ما نبود (مثلاً بازی دوستانه)، اسم واقعی رقابت را از خود API می‌گیریم
         api_league_name = item.get("league", {}).get("name", "بازی دوستانه/سایر")
         return True, api_league_name
     return False, None

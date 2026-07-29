@@ -1,0 +1,70 @@
+{
+  "1593514": {
+    "last_message_id": 154,
+    "kickoff_posted": true,
+    "fulltime_posted": false,
+    "posted_events": [
+      "Goal-Normal Goal-10-None-E. Kara-Rapid Vienna",
+      "Goal-Normal Goal-24-None-P. Dahl-Rapid Vienna",
+      "Goal-Normal Goal-32-None-Guti-FC Santa Coloma",
+      "Goal-Normal Goal-33-None-E. Kara-Rapid Vienna"
+    ]
+  },
+  "1589421": {
+    "last_message_id": 157,
+    "kickoff_posted": false,
+    "fulltime_posted": false,
+    "posted_events": [
+      "Goal-Normal Goal-3-None-A. Katai-FK Crvena Zvezda",
+      "Var-Goal Disallowed - offside-16-None-A. Katai-FK Crvena Zvezda",
+      "Goal-Normal Goal-45-4-M. Arnautovic-FK Crvena Zvezda"
+    ]
+  },
+  "1589422": {
+    "last_message_id": 158,
+    "kickoff_posted": false,
+    "fulltime_posted": false,
+    "posted_events": [
+      "Goal-Normal Goal-65-None-Z. Ahmed-Hapoel Beer Sheva"
+    ]
+  },
+  "1591940": {
+    "last_message_id": 162,
+    "kickoff_posted": false,
+    "fulltime_posted": false,
+    "posted_events": [
+      "Goal-Normal Goal-13-None-Everton Bala-Levski Sofia",
+      "Goal-Normal Goal-16-None-A. Neves-Levski Sofia",
+      "Goal-Normal Goal-45-2-N. Bancu-Universitatea Craiova",
+      "Goal-Normal Goal-48-None-A. Rus-Universitatea Craiova"
+    ]
+  },
+  "1556508": {
+    "last_message_id": 166,
+    "kickoff_posted": false,
+    "fulltime_posted": false,
+    "posted_events": [
+      "Goal-Normal Goal-32-None-T. Bech-Aarhus",
+      "Goal-Penalty-54-None-K. Arnstad-Aarhus",
+      "Goal-Normal Goal-75-None-F. Tingager-Aarhus",
+      "Goal-Normal Goal-95-None-F. Jagiello-Lech Poznan"
+    ]
+  },
+  "1556506": {
+    "last_message_id": 168,
+    "kickoff_posted": false,
+    "fulltime_posted": false,
+    "posted_events": [
+      "Goal-Penalty-12-None-Talisca-Fenerbahçe",
+      "Goal-Normal Goal-45-10-M. Sacek-Gornik Zabrze"
+    ]
+  },
+  "1589426": {
+    "last_message_id": 169,
+    "kickoff_posted": false,
+    "fulltime_posted": false,
+    "posted_events": [
+      "Goal-Normal Goal-44-None-M. Kukharevych-Slovan Bratislava"
+    ]
+  }
+}

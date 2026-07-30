@@ -18,14 +18,13 @@ WINDOW_END_UTC_MIN = 22 * 60 + 30
 
 CHANNEL_TAG = "@moj_football"
 
-# رقابت‌هایی که تیم‌هاشون از چند کشور مختلفن؛ توی این‌ها به‌جای پرچم لیگ، پرچم تیم نشون داده می‌شه
 CONTINENTAL_LEAGUES = {2, 3, 848, 17, 18}
 
 LEAGUES = {
-    696: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 پریمیرلیگ انگلیس",
-    45: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 جام حذفی انگلیس (FA Cup)",
-    48: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 جام اتحادیه انگلیس (EFL Cup)",
-    528: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 کامیونیتی شیلد انگلیس",
+    696: "🇬🇧 پریمیرلیگ انگلیس",
+    45: "🇬🇧 جام حذفی انگلیس (FA Cup)",
+    48: "🇬🇧 جام اتحادیه انگلیس (EFL Cup)",
+    528: "🇬🇧 کامیونیتی شیلد انگلیس",
     140: "🇪🇸 لالیگا اسپانیا",
     143: "🇪🇸 کوپا دل‌ری",
     556: "🇪🇸 سوپرکاپ اسپانیا",
@@ -90,12 +89,12 @@ SPECIAL_TEAMS = {
 }
 
 COUNTRY_FLAGS = {
-    "England": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "Spain": "🇪🇸", "France": "🇫🇷", "Italy": "🇮🇹",
+    "England": "🇬🇧", "Spain": "🇪🇸", "France": "🇫🇷", "Italy": "🇮🇹",
     "Germany": "🇩🇪", "Portugal": "🇵🇹", "Netherlands": "🇳🇱", "Belgium": "🇧🇪",
     "Iran": "🇮🇷", "Saudi Arabia": "🇸🇦", "Qatar": "🇶🇦", "UAE": "🇦🇪",
     "Japan": "🇯🇵", "South Korea": "🇰🇷", "Australia": "🇦🇺", "China PR": "🇨🇳",
     "Uzbekistan": "🇺🇿", "Iraq": "🇮🇶", "Jordan": "🇯🇴", "Kuwait": "🇰🇼",
-    "Turkey": "🇹🇷", "Greece": "🇬🇷", "Scotland": "🏴󠁧󠁢󠁳󠁣󠁴󠁿", "Austria": "🇦🇹",
+    "Turkey": "🇹🇷", "Greece": "🇬🇷", "Scotland": "🇬🇧", "Austria": "🇦🇹",
     "Switzerland": "🇨🇭", "Croatia": "🇭🇷", "Serbia": "🇷🇸", "Ukraine": "🇺🇦",
     "Poland": "🇵🇱", "Czech-Republic": "🇨🇿", "Denmark": "🇩🇰", "Sweden": "🇸🇪",
     "Norway": "🇳🇴", "Brazil": "🇧🇷", "Argentina": "🇦🇷", "Egypt": "🇪🇬",

@@ -1,1 +1,67 @@
-{}
+{
+  "1556526": {
+    "last_message_id": 204,
+    "kickoff_posted": true,
+    "fulltime_posted": false,
+    "posted_events": []
+  },
+  "1556535": {
+    "last_message_id": 205,
+    "kickoff_posted": true,
+    "fulltime_posted": false,
+    "posted_events": []
+  },
+  "1556537": {
+    "last_message_id": 206,
+    "kickoff_posted": true,
+    "fulltime_posted": false,
+    "posted_events": []
+  },
+  "1593506": {
+    "last_message_id": 207,
+    "kickoff_posted": true,
+    "fulltime_posted": false,
+    "posted_events": []
+  },
+  "1593507": {
+    "last_message_id": 208,
+    "kickoff_posted": true,
+    "fulltime_posted": false,
+    "posted_events": []
+  },
+  "1593508": {
+    "last_message_id": 209,
+    "kickoff_posted": true,
+    "fulltime_posted": false,
+    "posted_events": []
+  },
+  "1593511": {
+    "last_message_id": 210,
+    "kickoff_posted": true,
+    "fulltime_posted": false,
+    "posted_events": []
+  },
+  "1593518": {
+    "last_message_id": 212,
+    "kickoff_posted": true,
+    "fulltime_posted": false,
+    "posted_events": [
+      "Goal-Normal Goal-5-None-E. Aydin-Zira"
+    ]
+  },
+  "1593526": {
+    "last_message_id": 213,
+    "kickoff_posted": true,
+    "fulltime_posted": false,
+    "posted_events": []
+  },
+  "1556540": {
+    "last_message_id": 215,
+    "kickoff_posted": false,
+    "fulltime_posted": false,
+    "posted_events": [
+      "Goal-Normal Goal-33-None-N. Petkevicius-Panevėžys",
+      "Goal-Normal Goal-45-3-A. Talal-FK Tobol Kostanay"
+    ]
+  }
+}

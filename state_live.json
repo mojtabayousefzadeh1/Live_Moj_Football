@@ -63,5 +63,85 @@
       "Goal-Normal Goal-33-None-N. Petkevicius-Panevėžys",
       "Goal-Normal Goal-45-3-A. Talal-FK Tobol Kostanay"
     ]
+  },
+  "1556528": {
+    "last_message_id": 240,
+    "kickoff_posted": false,
+    "fulltime_posted": false,
+    "posted_events": [
+      "Goal-Penalty-27-None-R. Horta-SC Braga",
+      "Goal-Normal Goal-44-None-Gabriel Silva-SC Braga",
+      "Goal-Missed Penalty-63-None-R. Horta-SC Braga",
+      "Goal-Normal Goal-63-None-P. Victor-SC Braga"
+    ]
+  },
+  "1556548": {
+    "last_message_id": 246,
+    "kickoff_posted": false,
+    "fulltime_posted": false,
+    "posted_events": [
+      "Goal-Normal Goal-11-None-V. Pavlidis-Benfica",
+      "Goal-Normal Goal-55-None-V. Pavlidis-Benfica",
+      "Card-Red Card-57-None-J. Stanic-FC ST. Gallen",
+      "Goal-Normal Goal-65-None-V. Pavlidis-Benfica",
+      "Goal-Penalty-74-None-V. Pavlidis-Benfica",
+      "Goal-Normal Goal-82-None-C. Lenglet-Benfica"
+    ]
+  },
+  "1591948": {
+    "last_message_id": 250,
+    "kickoff_posted": false,
+    "fulltime_posted": false,
+    "posted_events": [
+      "Goal-Normal Goal-9-None-O. Elding-Hibernian",
+      "Goal-Normal Goal-15-None-F. Passlack-Hibernian",
+      "Goal-Normal Goal-35-None-N. Lowe-Hibernian",
+      "Goal-Normal Goal-57-None-M. Boyle-Hibernian"
+    ]
+  },
+  "1591950": {
+    "last_message_id": 252,
+    "kickoff_posted": false,
+    "fulltime_posted": false,
+    "posted_events": [
+      "Goal-Normal Goal-16-None-A. Kontsevoy-ML Vitebsk",
+      "Goal-Normal Goal-84-None-None-Sutjeska"
+    ]
+  },
+  "1593503": {
+    "last_message_id": 255,
+    "kickoff_posted": false,
+    "fulltime_posted": false,
+    "posted_events": [
+      "Goal-Normal Goal-24-None-L. Vila-Dinamo Tirana",
+      "Goal-Normal Goal-43-None-K. Qefalia-Dinamo Tirana",
+      "Goal-Normal Goal-78-None-F. Perndreca-Dinamo Tirana"
+    ]
+  },
+  "1593509": {
+    "last_message_id": 256,
+    "kickoff_posted": false,
+    "fulltime_posted": false,
+    "posted_events": [
+      "Goal-Missed Penalty-25-None-L. Rimac-Koper"
+    ]
+  },
+  "1556533": {
+    "last_message_id": null,
+    "kickoff_posted": false,
+    "fulltime_posted": false,
+    "posted_events": []
+  },
+  "1593504": {
+    "last_message_id": null,
+    "kickoff_posted": false,
+    "fulltime_posted": false,
+    "posted_events": []
+  },
+  "1593524": {
+    "last_message_id": null,
+    "kickoff_posted": false,
+    "fulltime_posted": false,
+    "posted_events": []
   }
 }
